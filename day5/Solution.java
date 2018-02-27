@@ -1,0 +1,19 @@
+/* Day 5: Loops - 30 days of Code */
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        in.close();
+        int i;
+        for (i=0;i<=10;i++) {
+            System.out.println(n + " x " + i + " = " + n*i);
+        }
+    }
+}
